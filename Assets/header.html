@@ -1,0 +1,55 @@
+<nav>
+  <input type="checkbox" id="show-search" />
+  <input type="checkbox" id="show-menu" />
+  <input type="checkbox" id="show-login" />
+  <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+  <div class="content">
+    <div class="logo"><a href="#">AwsomeShop</a></div>
+
+    <ul class="links">
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">Products</a>
+        <ul>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Cars</a></li>
+          <li><a href="#">Tents</a></li>
+          <li><a href="#">Dropmenu 4</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Services</a>
+        <ul class="hide">
+          <li><a href="#">Dropmenu 1</a></li>
+          <li><a href="#">Dropmenu 2</a></li>
+          <li><a href="#">Dropmenu 3</a></li>
+          <li>
+            <a href="#">More items</a>
+            <ul>
+              <li><a href="index.html">Submenu 1</a></li>
+              <li><a href="#">Submenu 2</a></li>
+              <li><a href="#">Submenu 3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#">Company</a></li>
+      <li>
+        <label for="show-login"
+          ><a href="#" id="login" onclick="loadlogin()">Login</a></label
+        >
+      </li>
+    </ul>
+  </div>
+
+  <label for="show-search" class="search-icon"
+    ><i class="fas fa-search"></i
+  ></label>
+
+  <form action="#" class="search-box">
+    <input type="text" placeholder="Type Something to Search..." required />
+    <button type="submit" class="go-icon">
+      <i class="fas fa-long-arrow-alt-right"></i>
+    </button>
+  </form>
+</nav>
